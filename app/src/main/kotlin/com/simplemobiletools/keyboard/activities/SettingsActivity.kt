@@ -126,6 +126,7 @@ class SettingsActivity : SimpleActivity() {
                 RadioItem(LANGUAGE_FRENCH, getKeyboardLanguageText(LANGUAGE_FRENCH)),
                 RadioItem(LANGUAGE_GERMAN, getKeyboardLanguageText(LANGUAGE_GERMAN)),
                 RadioItem(LANGUAGE_LITHUANIAN, getKeyboardLanguageText(LANGUAGE_LITHUANIAN)),
+                RadioItem(LANGUAGE_PUNJABI_SHAHMUKHI, getKeyboardLanguageText(LANGUAGE_PUNJABI_SHAHMUKHI)),
                 RadioItem(LANGUAGE_ROMANIAN, getKeyboardLanguageText(LANGUAGE_ROMANIAN)),
                 RadioItem(LANGUAGE_RUSSIAN, getKeyboardLanguageText(LANGUAGE_RUSSIAN)),
                 RadioItem(LANGUAGE_SLOVENIAN, getKeyboardLanguageText(LANGUAGE_SLOVENIAN)),
@@ -149,6 +150,7 @@ class SettingsActivity : SimpleActivity() {
             LANGUAGE_FRENCH -> getString(R.string.translation_french)
             LANGUAGE_GERMAN -> getString(R.string.translation_german)
             LANGUAGE_LITHUANIAN -> getString(R.string.translation_lithuanian)
+            LANGUAGE_PUNJABI_SHAHMUKHI -> getString(R.string.translation_punjabi_pk)
             LANGUAGE_ROMANIAN -> getString(R.string.translation_romanian)
             LANGUAGE_RUSSIAN -> getString(R.string.translation_russian)
             LANGUAGE_SLOVENIAN -> getString(R.string.translation_slovenian)
